@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <nav>
+        <ul class="menu">
+            <li><a href="">INICIO</a></li>
+            <li><a href="#info">INFORMACIÓN</a></li>
+            <li><a href="#progra">PROGRAMACIÓN</a></li>
+            <li><a href="#galeria">GALERÍA</a></li>
+            <li><a href="#contacto">CONTACTO</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-texto">
+            <h1>Programación FrontEnd</h1>
+            <h2>Web de programación</h2>
+        </div>
+    </header>
+
+    <section class="info" id="info">
+        <div class="contenedor">
+            <h2 class="titulo">Información relevante</h2>
+            <p>Python es un lenguaje de alto nivel de programación interpretado cuya filosofía hace hincapié en la legibilidad de su código. Se trata de un lenguaje de programación multiparadigma, ya que soporta parcialmente la orientación a objetos, programación imperativa y, en menor medida, programación funcional. Es un lenguaje interpretado, dinámico y multiplataforma.</p>
+        </div>
+        
+    </section>
+
+    <section class="contenedor" id="progra">
+        <h2 class="titulo">Programación Web</h2>
+        <div class="contenedor-card">
+
+            <article class="card">
+                <div class="margen-icon">
+                    <i class="bi bi-card-text"></i>
+                </div>
+                <h3 class="titulo-card">HTML</h3>
+                <p>Aprende sobre HTML</p>
+                <a href="" class="boton">Leer más</a>
+            </article>
+
+            <article class="card">
+                <div class="margen-icon">
+                    <i class="bi bi-card-text"></i>
+                </div>
+                <h3 class="titulo-card">CSS</h3>
+                <p>Aprende sobre CSS</p>
+                <a href="" class="boton">Leer más</a>
+            </article>
+
+            <article class="card">
+                <div class="margen-icon">
+                    <i class="bi bi-card-text"></i>
+                </div>
+                <h3 class="titulo-card">Java Script</h3>
+                <p>Aprende sobre Java Script</p>
+                <a href="" class="boton">Leer más</a>
+            </article>
+        </div>
+    </section>
+
+    <section class="galeria" id="galeria">
+        <div class="contenedor">
+            <h2>Galería de imágenes</h2>
+            <div class="contenedor-galeria">
+                <img src="imgp1.jpeg" alt="">
+                <img src="imgp2.jpeg" alt="">
+                <img src="imgp3.jpg" alt="">
+                <img src="imgp4.jpg" alt="">
+                <img src="imgp5.jpg" alt="">
+                <img src="imgp6.jpg" alt="">
+                <img src="imgp7.jpg" alt="">
+                <img src="imgp8.jpeg" alt="">
+            </div>
+        </div>
+    </section>
+        
+    <section class="contacto" id="contacto">
+        <div class="contenedor-formulario">
+            <h2 class="titulo">Formulario de contacto</h2>
+            <form class="formulario">
+                <input type="text" name="nombre" id="nombre" class="input" placeholder="Ingresa tu nombre">
+                <input type="text" name="nombre" id="nombre" class="input" placeholder="Ingresa tu correo electrónico">
+                <textarea name="msj" id="msj" class="input" cols="30" rows="10" placeholder="Ingresa mensaje"></textarea>
+                <input type="submit" value="ENVIAR" class="boton2 input-ancho">
+                <input type="reset" value="LIMPIAR" class="boton2 input-ancho">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        Poner información: Datos personales, números de contacto, correo electrónico y dirección 
+        Añadir estilos e icono al lado de cada dato
+
+    </footer>
+    
+</body>
+</html>
